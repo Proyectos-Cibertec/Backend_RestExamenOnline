@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import com.examenonline.bean.AlternativaBE;
@@ -352,12 +353,11 @@ public class ExamenDAO {
 		PreparedStatement pstm2 = null;
 
 		try {
-
 			conn = new SQLServerConexion().getConexion();
 
 			cstm = conn.prepareCall("{call dbo.Usp_InsertarExamen(?,?,?,?,?,?,?,?)}");
-			cstm.setDate(1, new java.sql.Date(System.currentTimeMillis()));
-			cstm.setString(2, examen.getFechaExpString());
+			cstm.setDate(1, new java.sql.Date(System.currentTimeMillis()));			
+			cstm.setDate(2, new java.sql.Date(new SimpleDateFormat("MM/dd/YYYY").parse(examen.getFechaExpString()).getTime()));
 			cstm.setInt(3, examen.getUsuario().getIdUsuario());
 			cstm.setString(4, examen.getTitulo());
 			cstm.setString(5, examen.getDescripcion());
