@@ -7,8 +7,6 @@
 
 Proyecto final del curso de Algoritmos y estructura de datos del segundo ciclo de la carrera de computación e Informática (2016). Lenguaje de programación Java. Se desarrolló una aplicación de escritorio con aplicación de uso de archivos de texto.
 
-![Butacas](https://i.imgur.com/WxD8kqO.png "Butacas")
-
 ## Herramientas
 - IDE Eclipse Mars 2.0 o superior con WindowBuilder
 - JDK 8 o superior (java)
