@@ -4,22 +4,25 @@
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
-Proyecto final del curso de Algoritmos y estructura de datos del segundo ciclo de la carrera de computación e Informática (2016). Lenguaje de programación Java. Se desarrolló una aplicación de escritorio con aplicación de uso de archivos de texto.
+Parte Backend del Proyecto final del curso de Desarrollo de Servicios Web II del VI ciclo de Computación e Informática (2018).
 
 ## Herramientas
-- IDE Eclipse Mars 2.0 o superior con WindowBuilder
+- IDE Eclipse Mars 2.0
 - JDK 8 o superior (java)
+- SQL Server 2012 o superior
 
 ## Tecnologías
-- Java, Java swing
-- Librerías: WindowBuilder
+- Java, JAX-RS, Jersey, Apache Tomcat, JDBC
+- Base de datos SQL Server
 
 ## Instalación y ejecución
 1. Clonar el repositorio
-`git clone https://github.com/Proyectos-Cibertec/Atencion-de-cines`
+`git clone https://github.com/Proyectos-Cibertec/Backend_RestExamenOnline.git`
 2. Importar el proyecto en Eclipse
 3. Levantar la aplicación usando Tomcat como servidor
+4. Pendiente...
 
 ## Capturas de pantalla de la aplicación
 
